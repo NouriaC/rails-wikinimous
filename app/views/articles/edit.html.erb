@@ -1,7 +1,6 @@
-<%= form_for(@article) do |f| %>
-  <%= f.label :title %>
-  <%= f.text_field :title %>
-  <%= f.label :content %>
-  <%= f.text_field :content %>
-  <%= f.submit %>
+<%= render 'form', article: @article %>
+
+<hr>
+<%= link_to articles_path do %>
+  <i class="fa fa-history"></i> Back to all articles
 <% end %>
