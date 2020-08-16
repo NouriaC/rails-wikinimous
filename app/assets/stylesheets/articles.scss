@@ -6,25 +6,13 @@ body {
   padding: 0 24px;
 }
 
-h1 {
+h2 {
   font-weight: 400;
+  color: #337ab7;
 }
 
-.letters {
-  padding-left: 0;
-  font-size: 24px;
-  list-style: none;
-  font-family: monospace;
-  li {
-    background-color: #3498db;
-    color: white;
-    border: 1px solid #2980b9;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 4px 12px;
-    display: inline;
-  }
-}
 
-.form-prefix {
-  margin-top: 2em;
+a {
+    color: #337ab7;
+    text-decoration: none;
 }
